@@ -1,0 +1,89 @@
+body {
+	background: #f9f8f5;
+	border: .0625em solid;
+	color: #413b43;
+	font-family: "Avenir Next", Avenir, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	height: 100%;
+	line-height: 1.45;
+	margin: 0;
+	margin: 5% .5%;
+	min-height: 50%;
+	padding: 10% 5%;
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width:30em) {
+	body {
+		font-size: 1.25rem;
+		margin: 5%;
+	}
+}
+
+h1 {
+	font-weight: 600;
+	letter-spacing: -.015em;
+	line-height: .9;
+	margin: 1em auto;
+text-shadow: 0 0 .3em rgba(255,255,255,.35);
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 + p {
+	margin-top: 0;
+}
+
+p {
+	margin: .85em 0;
+}
+
+.logo {
+	background: url(img/logo.svg) no-repeat center center;
+	background-size: contain;
+	height: 15vw;
+	max-width: 10em;
+	min-height: 2em;
+	min-width: 4em;
+	overflow: hidden;
+	text-indent: 100%;
+	width: 50%;
+}
+
+h2 {
+	font-size: 1.25em;
+	font-weight: 500;
+	margin: 1.25em 0 .5em;
+}
+
+a {
+	color: #297fb3;
+	font-weight: 500;
+	text-decoration: none;
+	transition: color .3s ease-out;
+}
+
+a:hover {
+	color: #2e678b;
+}
+
+a.camo {
+	color: inherit;
+	font-weight: inherit;
+}
+
+article {
+	margin: 5% auto;
+	max-width: 25em;
+	padding: 5%;
+	text-align: left;
+}
