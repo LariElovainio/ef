@@ -47,7 +47,8 @@ p {
 	margin: .85em 0;
 }
 
-.logo {
+.logo,
+.mark {
 	background: url(img/logo.svg) no-repeat center center;
 	background-size: contain;
 	height: 15vw;
@@ -57,6 +58,10 @@ p {
 	overflow: hidden;
 	text-indent: 100%;
 	width: 50%;
+}
+
+.mark {
+	background-image: url(img/mark.svg);
 }
 
 h2 {
